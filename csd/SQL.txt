@@ -1,0 +1,13 @@
+create database countrydata;
+use countrydata;
+
+drop table country;
+CREATE TABLE country
+(
+id int,
+countryName varchar(255),
+population int
+);
+
+insert into country values(1,"india",10000);
+insert into country values(2,"US",20000);
